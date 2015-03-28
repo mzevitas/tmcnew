@@ -18,7 +18,8 @@ body{
 
 
  #header {
-   height: 400px;
+   height: 510px;
+//   background-image: url(http://f.cl.ly/items/453u3m3n2j3X2z3P0k3C/TMC%20Header.png);
    background-color: hsla(47,46%,82%,1);
 
 
@@ -36,6 +37,8 @@ body{
        width: 11%;
      }
    }
+
+
  }
 
 
@@ -46,11 +49,13 @@ body{
 .aboutsection{
   background-color: #f5f6eb;
   color: hsla(365,100%,22%,1);
+  border-bottom: hsla(359,96%,21%,0.8) 1px solid;
+  box-shadow: hsla(359,96%,21%,0.6) 0 2px 0 2px;
 
 
   .about {
    @include outer-container;
-   height: 750px;
+   height: 770px;
 
    h3 {
      text-align: center;
@@ -90,6 +95,7 @@ body{
 
    .boxp {
      font-size: 1em;
+     padding: 5px;
 
    }
 
@@ -97,25 +103,41 @@ body{
  }
 
  .servicessection {
+   background-color: hsla(50,47%,82%,1);
+   color: hsla(365,100%,22%,1);
+   border-bottom: hsla(359,96%,21%,0.8) 1px solid;
+   box-shadow: hsla(359,96%,21%,0.6) 0 2px 0 2px;
+   margin-top: 3px;
+
+
 
    .services {
      @include outer-container;
      text-align: center;
-     height: 400px;
+     height: 550px;
      clear: both;
+
+     h3 {
+       text-align: center;
+       font-size: 2.0em;
+     }
 
      .s1 {
        @include span-columns(4);
        text-align: center;
        border: black 1px solid;
-       height: 280px;
+       height: 400px;
+       overflow: scroll;
+
      }
 
      .s2 {
        @include span-columns(4);
        text-align: center;
        border: black 1px solid;
-       height: 280px;
+       height: 400px;
+       overflow: scroll;
+
 
      }
 
@@ -123,8 +145,14 @@ body{
        @include span-columns(4);
        text-align: center;
        border: black 1px solid;
-       height: 280px;
+       height: 400px;
+       overflow: scroll;
 
+
+     }
+
+     .boxs{
+       padding: 5px;
      }
 
    }
@@ -133,16 +161,46 @@ body{
 
 
 // client section
+.clientsection {
+  background-color: hsla(360,100%,22%,1);
+  border-bottom: hsla(359,96%,21%,0.8) 1px solid;
+  box-shadow: hsla(359,96%,21%,0.6) 0 2px 0 2px;
+  color: #e6ddbc;
+  margin-top: 3px;
 
- .clients {
-   height: 400px;
 
- }
+  .clients {
 
- .contact {
-   height: 400px;
+    @include outer-container;
+    text-align: center;
+    height: 400px;
 
- }
+    h3 {
+      text-align: center;
+      font-size: 2.0em;
+    }
+
+  }
+}
+
+
+.contactsection {
+  background-color: hsla(0,0%,32%,1);
+  color: hsla(47,46%,82%,1);
+  margin-top: 3px;
+
+  .contact {
+    @include outer-container;
+    text-align: center;
+    height: 400px;
+
+    h3 {
+      text-align: center;
+      font-size: 2.0em;
+    }
+
+  }
+}
 
 
 
@@ -154,8 +212,8 @@ body{
 
  [data-magellan-expedition] {
    background-color: hsla(47,46%,82%,1);
-   margin-bottom: 10px;
-   height: 100px;
+//   margin-bottom: 10px;
+   height: 90px;
    border-bottom: hsla(359,96%,21%,0.8) 1px solid;
    box-shadow: hsla(359,96%,21%,0.6) 0 2px 0 2px;
    text-decoration: none;
@@ -164,5 +222,8 @@ body{
 
  }
  [data-magellan-expedition-clone] {
-   display: none;
+//   display: none;
+
+   border-bottom: hsla(359,96%,21%,0.8) 1px solid;
+   box-shadow: hsla(359,96%,21%,0.6) 0 2px 0 2px;
  }
