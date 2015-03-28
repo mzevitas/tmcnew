@@ -1,26 +1,168 @@
  // Bourbon & Neat
 @import '../../bower_components/bourbon/dist/bourbon';
 @import '../../bower_components/neat/app/assets/stylesheets/neat';
+ @import "../../bower_components/foundation/scss/foundation/components/magellan";
+
 
 // Custom Styles
-body {
-  background: #fafafa;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
+
+body{
+//  width: 93%;
+  margin: 0 auto;
+  font-family: 'Lobster', cursive;
+
 }
 
-.hero-unit {
-  margin: 50px auto 0 auto;
-  width: 600px;
-  font-size: 18px;
-  font-weight: 200;
-  line-height: 30px;
-  background-color: #eee;
-  border-radius: 6px;
-  padding: 60px;
-  h1 {
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -1px;
+
+
+
+
+ #header {
+   height: 400px;
+   background-color: hsla(47,46%,82%,1);
+
+
+   .sub-nav {
+     text-align: center;
+
+     a {
+       color: hsla(359, 96%, 21%, 1);
+       text-decoration: none;
+       font-weight: 700;
+       margin-left: 5%;
+       font-size: 2.0em;
+     }
+     .logohead img {
+       width: 11%;
+     }
+   }
+ }
+
+
+
+
+//about div
+
+.aboutsection{
+  background-color: #f5f6eb;
+  color: hsla(365,100%,22%,1);
+
+
+  .about {
+   @include outer-container;
+   height: 750px;
+
+   h3 {
+     text-align: center;
+     font-size: 2.0em;
+   }
+
+   p {
+     font-size: 1.3em;
+     clear: both;
+   }
+
+   .a1 {
+     @include span-columns(4);
+     text-align: center;
+     border: black 1px solid;
+     height: 360px;
+     overflow: scroll;
+   }
+
+   .a2 {
+     @include span-columns(4);
+     text-align: center;
+     border: black 1px solid;
+     height: 360px;
+     overflow: scroll;
+
+   }
+
+   .a3 {
+     @include span-columns(4);
+     text-align: center;
+     border: black 1px solid;
+     height: 360px;
+     overflow: scroll;
+
+   }
+
+   .boxp {
+     font-size: 1em;
+
+   }
+
   }
-}
+ }
+
+ .servicessection {
+
+   .services {
+     @include outer-container;
+     text-align: center;
+     height: 400px;
+     clear: both;
+
+     .s1 {
+       @include span-columns(4);
+       text-align: center;
+       border: black 1px solid;
+       height: 280px;
+     }
+
+     .s2 {
+       @include span-columns(4);
+       text-align: center;
+       border: black 1px solid;
+       height: 280px;
+
+     }
+
+     .s3 {
+       @include span-columns(4);
+       text-align: center;
+       border: black 1px solid;
+       height: 280px;
+
+     }
+
+   }
+
+ }
+
+
+// client section
+
+ .clients {
+   height: 400px;
+
+ }
+
+ .contact {
+   height: 400px;
+
+ }
+
+
+
+
+
+
+
+ // Sticky Header Color  and Clone
+
+ [data-magellan-expedition] {
+   background-color: hsla(47,46%,82%,1);
+   margin-bottom: 10px;
+   height: 100px;
+   border-bottom: hsla(359,96%,21%,0.8) 1px solid;
+   box-shadow: hsla(359,96%,21%,0.6) 0 2px 0 2px;
+   text-decoration: none;
+//  display: none;
+
+
+ }
+ [data-magellan-expedition-clone] {
+   display: none;
+ }
