@@ -175,7 +175,7 @@ body{
 
     @include outer-container;
     text-align: center;
-    height: 500px;
+    height: 400px;
 
 
     h3 {
@@ -185,17 +185,34 @@ body{
 
     ul {
       display: block;
+      margin-right: 19px;
     }
 
     li {
-      @include span-columns(6);
-
+//      @include span-columns(6);
+list-style-type: none;
 
     }
 
     .testimonials {
-      @include span-columns(6);
+//
 
+
+  .left {
+    float: left;
+    width: 35%;
+    margin-top: -250px;
+    border-right: 1px solid;
+    padding-right: 10px;
+  }
+.right {
+  float: right;
+  width: 35%;
+  margin-top: -250px;
+  border-left: 1px solid;
+  padding-left: 10px;
+
+}
     }
 
 
@@ -213,11 +230,21 @@ body{
   .contact {
     @include outer-container;
     text-align: center;
-    height: 400px;
+    height: 300px;
 
     h3 {
       text-align: center;
       font-size: 2.0em;
+    }
+
+    a {
+      color: hsla(47,46%,82%,1);
+      text-decoration: none;
+
+    }
+
+    a:hover {
+      color:hsla(360,100%,22%,1);
     }
 
   }
