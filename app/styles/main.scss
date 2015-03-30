@@ -297,7 +297,10 @@ list-style-type: none;
  }
 
 
- @media screen and(max-width: 1220px) {
+ // All my Media Queries
+
+
+ @media screen and (max-width: 1220px) {
 
  #header {
    height: 450px;
@@ -305,14 +308,14 @@ list-style-type: none;
 
  }
 
- @media screen and(max-width: 1130px) {
+ @media screen and (max-width: 1130px) {
 
  #header {
    height: 420px;
  }
 
  }
- @media screen and(max-width: 1030px) {
+ @media screen and (max-width: 1030px) {
 
  #header {
    height: 390px;
@@ -320,14 +323,14 @@ list-style-type: none;
 
  }
 
- @media screen and(max-width: 970px) {
+ @media screen and (max-width: 970px) {
 
  #header {
    height: 370px;
  }
 
  }
- @media screen and(max-width: 930px) {
+ @media screen and (max-width: 930px) {
 
  #header {
    height: 350px;
@@ -342,7 +345,7 @@ list-style-type: none;
 
  }
 
- @media screen and(max-width: 800px) {
+ @media screen and (max-width: 800px) {
 
  #header {
    height: 340px;
@@ -356,7 +359,7 @@ list-style-type: none;
 
  }
 
- @media screen and(max-width: 730px) {
+ @media screen and (max-width: 730px) {
 
  #header {
    height: 320px;
@@ -371,7 +374,7 @@ list-style-type: none;
  }
  }
 
- @media screen and(max-width: 690px) {
+ @media screen and (max-width: 690px){
 
  #header {
    height: 280px;
@@ -385,6 +388,27 @@ list-style-type: none;
  [data-magellan-expedition]{
    height: 70px;
  }
+ }
+
+ @media screen and (max-width: 630px){
+
+   .about {
+     @include outer-container;
+
+     .a1 {
+       @include span-columns(8);
+
+     }
+     .a2 {
+       @include span-columns(8);
+
+     }
+     .a3 {
+       @include span-columns(8);
+
+     }
+
+   }
  }
 
  @media screen and (max-width: 580px){
