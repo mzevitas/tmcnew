@@ -250,6 +250,22 @@ list-style-type: none;
     }
 
   }
+
+  .contactright {
+    float: right;
+    width: 60px;
+    margin-right: 35%;
+
+    img {
+      padding: 8px;
+    }
+
+  }
+
+  .contactleft {
+    float: left;
+    margin-left: 30%;
+  }
 }
 
 
@@ -276,4 +292,87 @@ list-style-type: none;
 
    border-bottom: hsla(359,96%,21%,0.8) 1px solid;
    box-shadow: hsla(359,96%,21%,0.6) 0 2px 0 2px;
+ }
+
+
+ @media screen and(max-width: 1220px) {
+
+ #header {
+   height: 450px;
+ }
+
+ }
+
+ @media screen and(max-width: 1130px) {
+
+ #header {
+   height: 420px;
+ }
+
+ }
+ @media screen and(max-width: 1030px) {
+
+ #header {
+   height: 390px;
+ }
+
+ }
+
+ @media screen and(max-width: 970px) {
+
+ #header {
+   height: 370px;
+ }
+
+ }
+ @media screen and(max-width: 900px) {
+
+ #header {
+   height: 350px;
+ }
+
+ }
+
+ @media screen and(max-width: 800px) {
+
+ #header {
+   height: 340px;
+
+   .sub-nav{
+     a{
+       font-size: 1.7em;
+     }
+   }
+ }
+
+ }
+
+ @media screen and(max-width: 730px) {
+
+ #header {
+   height: 320px;
+ }
+
+ }
+
+ @media screen and(max-width: 690px) {
+
+ #header {
+   height: 280px;
+
+   .sub-nav{
+     a{
+       font-size: 1.4em;
+     }
+   }
+ }
+ [data-magellan-expedition]{
+   height: 70px;
+ }
+ }
+
+ @media screen and (max-width: 580px){
+   .sub-nav{
+     display: none;
+   }
  }
