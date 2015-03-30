@@ -59,6 +59,7 @@ body{
   .about {
    @include outer-container;
    height: 800px;
+    padding: 10px;
 
    h3 {
      text-align: center;
@@ -68,6 +69,7 @@ body{
    p {
      font-size: 1.3em;
      clear: both;
+//     padding: 5px;
    }
 
    .a1 {
@@ -325,10 +327,17 @@ list-style-type: none;
  }
 
  }
- @media screen and(max-width: 900px) {
+ @media screen and(max-width: 930px) {
 
  #header {
    height: 350px;
+ }
+
+ .aboutsection {
+   height: 950px;
+ }
+ .servicessection{
+   height: 750px;
  }
 
  }
@@ -353,6 +362,13 @@ list-style-type: none;
    height: 320px;
  }
 
+ .aboutsection {
+   height: 1050px;
+ }
+
+ .servicessection{
+   height: 800px;
+ }
  }
 
  @media screen and(max-width: 690px) {
