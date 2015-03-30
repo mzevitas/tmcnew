@@ -18,9 +18,11 @@ body{
 
 
  #header {
-   height: 440px;
+   height: 490px;
 //   background-image: url(http://f.cl.ly/items/453u3m3n2j3X2z3P0k3C/TMC%20Header.png);
    background-color: hsla(47,46%,82%,1);
+   border-bottom: hsla(359,96%,21%,0.8) 1px solid;
+   box-shadow: hsla(359,96%,21%,0.6) 0 2px 0 2px;
 
 
    .sub-nav {
