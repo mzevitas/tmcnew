@@ -345,6 +345,8 @@ list-style-type: none;
  }
  .servicessection{
    height: 750px;
+
+
  }
 
  }
@@ -407,6 +409,7 @@ list-style-type: none;
  }
 
  @media screen and (max-width: 630px) {
+
    .aboutsection {
       height: 1150px;
    }
@@ -419,7 +422,8 @@ list-style-type: none;
  @media screen and (max-width: 580px){
 
    .sub-nav{
-     display: none;
+//     display: none;
+     font-size: .9em;
 
    }
 
@@ -428,20 +432,23 @@ list-style-type: none;
    #header {
      height: 220px;
 
-     .fulllogo {
-       display: block;
-       width: 65%;
-       margin: 0 auto;
-
-
-     }
+//     .fulllogo {
+//       display: block;
+//       width: 65%;
+//       margin: 0 auto;
+//
+//
+//     }
    }
 
    .aboutsection {
      height: 1500px;
    }
    .servicessection{
-     height: 1230px;
+     padding: 10px;
+     height: 1280px;
+
+
    }
    .contactsection{
      height: 450px;
@@ -453,10 +460,29 @@ list-style-type: none;
    }
  }
 
+ @media screen and (max-width: 520px){
+
+   .sub-nav{
+     font-size: .8em;
+   }
+
+ }
+
  @media screen and (max-width: 480px){
 
-   .fulllogo{
-     width: 85%;
+#header{
+  height: 150px;
+}
+   .sub-nav{
+     font-size: .65em;
+     height: 60px;
    }
+   [data-magellan-expedition]{
+     height: 50px;
+   }
+   [data-magellan-expedition-clone]{
+     height: 50px;
+   }
+
  }
 
