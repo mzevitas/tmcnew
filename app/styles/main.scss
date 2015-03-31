@@ -62,7 +62,7 @@ body{
 
   .about {
    @include outer-container;
-   height: 800px;
+   height: 700px;
     padding: 10px;
 
    h3 {
@@ -341,7 +341,7 @@ list-style-type: none;
  }
 
  .aboutsection {
-   height: 950px;
+   height: 750px;
  }
  .servicessection{
    height: 750px;
@@ -372,7 +372,7 @@ list-style-type: none;
  }
 
  .aboutsection {
-   height: 1050px;
+   height: 800px;
  }
 
  .servicessection{
@@ -411,7 +411,7 @@ list-style-type: none;
  @media screen and (max-width: 630px) {
 
    .aboutsection {
-      height: 1150px;
+      height:900px;
    }
 
    .servicessection {
@@ -442,7 +442,7 @@ list-style-type: none;
    }
 
    .aboutsection {
-     height: 1500px;
+     height: 1000px;
    }
    .servicessection{
      padding: 10px;
@@ -473,6 +473,10 @@ list-style-type: none;
 #header{
   height: 150px;
 }
+
+   .aboutsection{
+     height: 1100px;
+   }
    .sub-nav{
      font-size: .65em;
      height: 60px;
