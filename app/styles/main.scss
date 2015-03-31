@@ -6,20 +6,14 @@
 
 // Custom Styles
 
-body{
-//  width: 93%;
+body {
   margin: 0 auto;
   font-family: 'Lobster', cursive;
 
 }
 
-
-
-
-
  #header {
    height: 490px;
-//   background-image: url(http://f.cl.ly/items/453u3m3n2j3X2z3P0k3C/TMC%20Header.png);
    background-color: hsla(47,46%,82%,1);
    border-bottom: hsla(359,96%,21%,0.8) 1px solid;
    box-shadow: hsla(359,96%,21%,0.6) 0 2px 0 2px;
@@ -79,26 +73,20 @@ body{
    .a1 {
      @include span-columns(4);
      text-align: center;
-//     border: black 1px solid;
      height: 360px;
-//     overflow: scroll;
    }
 
    .a2 {
      @include span-columns(4);
      text-align: center;
-//     border: black 1px solid;
      height: 360px;
-//     overflow: scroll;
 
    }
 
    .a3 {
      @include span-columns(4);
      text-align: center;
-//     border: black 1px solid;
      height: 360px;
-//     overflow: scroll;
 
    }
 
@@ -134,18 +122,14 @@ body{
      .s1 {
        @include span-columns(4);
        text-align: center;
-//       border: black 1px solid;
        height: 400px;
-//       overflow: scroll;
 
      }
 
      .s2 {
        @include span-columns(4);
        text-align: center;
-//       border: black 1px solid;
        height: 400px;
-//       overflow: scroll;
 
 
      }
@@ -153,9 +137,7 @@ body{
      .s3 {
        @include span-columns(4);
        text-align: center;
-//       border: black 1px solid;
        height: 400px;
-//       overflow: scroll;
 
 
      }
@@ -197,7 +179,6 @@ body{
     }
 
     li {
-//      @include span-columns(6);
 list-style-type: none;
 
     }
@@ -284,17 +265,14 @@ list-style-type: none;
 
  [data-magellan-expedition] {
    background-color: hsla(47,46%,82%,1);
-//   margin-bottom: 10px;
    height: 90px;
    border-bottom: hsla(359,96%,21%,0.8) 1px solid;
    box-shadow: hsla(359,96%,21%,0.6) 0 2px 0 2px;
    text-decoration: none;
-//  display: none;
 
 
  }
  [data-magellan-expedition-clone] {
-//   display: none;
 
    border-bottom: hsla(359,96%,21%,0.8) 1px solid;
    box-shadow: hsla(359,96%,21%,0.6) 0 2px 0 2px;
@@ -429,7 +407,6 @@ list-style-type: none;
  @media screen and (max-width: 580px){
 
    .sub-nav{
-//     display: none;
      font-size: .9em;
 
    }
@@ -439,13 +416,6 @@ list-style-type: none;
    #header {
      height: 220px;
 
-//     .fulllogo {
-//       display: block;
-//       width: 65%;
-//       margin: 0 auto;
-//
-//
-//     }
    }
 
    .aboutsection {
