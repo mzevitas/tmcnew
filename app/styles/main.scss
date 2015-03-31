@@ -41,6 +41,10 @@ body{
      }
    }
 
+   .fulllogo {
+     display:none;
+   }
+
 
  }
 
@@ -372,6 +376,14 @@ list-style-type: none;
  .servicessection{
    height: 800px;
  }
+
+   .testimonials{
+     display: none;
+
+     .left{
+       display: none;
+     }
+   }
  }
 
  @media screen and (max-width: 690px){
@@ -388,31 +400,63 @@ list-style-type: none;
  [data-magellan-expedition]{
    height: 70px;
  }
+
+   .servicessection{
+     height: 1000px;
+   }
  }
 
- @media screen and (max-width: 630px){
+ @media screen and (max-width: 630px) {
+   .aboutsection {
+      height: 1150px;
+   }
 
-   .about {
-     @include outer-container;
-
-     .a1 {
-       @include span-columns(8);
-
-     }
-     .a2 {
-       @include span-columns(8);
-
-     }
-     .a3 {
-       @include span-columns(8);
-
-     }
-
+   .servicessection {
+     height: 900px;
    }
  }
 
  @media screen and (max-width: 580px){
+
    .sub-nav{
      display: none;
+
+   }
+
+
+
+   #header {
+     height: 220px;
+
+     .fulllogo {
+       display: block;
+       width: 65%;
+       margin: 0 auto;
+
+
+     }
+   }
+
+   .aboutsection {
+     height: 1500px;
+   }
+   .servicessection{
+     height: 1230px;
+   }
+   .contactsection{
+     height: 450px;
+
+
+     .contactright{
+       margin-right: 45%;
+     }
    }
  }
+
+ @media screen and (max-width: 480px){
+
+   .fulllogo{
+     width: 85%;
+   }
+ }
+
