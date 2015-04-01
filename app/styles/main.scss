@@ -452,11 +452,37 @@ list-style-type: none;
 }
 
    .aboutsection{
-     height: 1100px;
+     height: 800px;
+
+     .a1 {
+       overflow: scroll;
+     }
+
+     .a2  {
+       overflow: scroll;
+     }
+     .a3 {
+       overflow: scroll;
+     }
    }
    .sub-nav{
      font-size: .65em;
      height: 60px;
+   }
+
+
+   .servicessection{
+     height: 600px;
+
+     .s1{
+       overflow: scroll;
+     }
+     .s2{
+       overflow: scroll;
+     }
+     .s3{
+       overflow: scroll;
+     }
    }
    [data-magellan-expedition]{
      height: 50px;
